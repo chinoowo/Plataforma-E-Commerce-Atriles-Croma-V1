@@ -474,3 +474,170 @@
 [12-Sep-2025 20:46:44 UTC] PHP Warning:  Undefined array key 1 in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\astra-sites\inc\lib\zipwp-images\classes\zipwp-images-api.php on line 471
 [15-Sep-2025 14:42:52 UTC] Error de evento de reprogramación de cron para el hook: action_scheduler_run_queue. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
 [15-Sep-2025 14:42:52 UTC] Error de evento de anulación de programación de cron para el hook: action_scheduler_run_queue. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[23-Sep-2025 16:47:07 UTC] Error de evento de reprogramación de cron para el hook: wp_privacy_delete_old_export_files. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"hourly","args":[],"interval":3600}
+[23-Sep-2025 16:47:07 UTC] Error de evento de anulación de programación de cron para el hook: wp_privacy_delete_old_export_files. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"hourly","args":[],"interval":3600}
+[23-Sep-2025 16:47:07 UTC] Error de evento de reprogramación de cron para el hook: jetpack_clean_nonces. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"hourly","args":[],"interval":3600}
+[23-Sep-2025 16:47:07 UTC] Error de evento de anulación de programación de cron para el hook: jetpack_clean_nonces. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"hourly","args":[],"interval":3600}
+[23-Sep-2025 16:47:07 UTC] Error de evento de reprogramación de cron para el hook: wc_admin_process_orders_milestone. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"hourly","args":[],"interval":3600}
+[23-Sep-2025 16:47:07 UTC] Error de evento de anulación de programación de cron para el hook: wc_admin_process_orders_milestone. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"hourly","args":[],"interval":3600}
+[23-Sep-2025 16:47:07 UTC] Error de evento de reprogramación de cron para el hook: wc_admin_unsnooze_admin_notes. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"hourly","args":[],"interval":3600}
+[23-Sep-2025 16:47:07 UTC] Error de evento de anulación de programación de cron para el hook: wc_admin_unsnooze_admin_notes. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"hourly","args":[],"interval":3600}
+[23-Sep-2025 16:47:07 UTC] Error de evento de reprogramación de cron para el hook: wp_update_user_counts. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"twicedaily","args":[],"interval":43200}
+[23-Sep-2025 16:47:07 UTC] Error de evento de anulación de programación de cron para el hook: wp_update_user_counts. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"twicedaily","args":[],"interval":43200}
+[23-Sep-2025 16:47:07 UTC] Error de evento de reprogramación de cron para el hook: wp_version_check. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"twicedaily","args":[],"interval":43200}
+[23-Sep-2025 16:47:07 UTC] Error de evento de anulación de programación de cron para el hook: wp_version_check. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"twicedaily","args":[],"interval":43200}
+[23-Sep-2025 16:47:23 UTC] Error de evento de reprogramación de cron para el hook: wp_delete_temp_updater_backups. Código de error: could_not_set. Mensaje de error: No se ha podido guardar la lista de eventos del cron.. Datos: {"schedule":"weekly","args":[],"interval":604800}
+[29-Sep-2025 16:45:31 UTC] WordPress database error Table 'local.wp_woof_front_builder' doesn't exist for query SELECT id FROM `wp_woof_front_builder` made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html_e, include('/plugins/woocommerce-products-filter/views/plugin_options.php'), do_action('woof_print_option_advanced'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF_FRONT_BUILDER->global_options
+[29-Sep-2025 16:48:12 UTC] WordPress database error Table 'local.wp_woof_front_builder' doesn't exist for query SELECT id FROM `wp_woof_front_builder` made by do_action('woocommerce_page_wc-settings'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Admin_Menus->settings_page, WC_Admin_Settings::output, include('/plugins/woocommerce/includes/admin/views/html-admin-settings.php'), do_action('woocommerce_settings_tabs_woof'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF->print_plugin_options, WOOF->render_html_e, include('/plugins/woocommerce-products-filter/views/plugin_options.php'), do_action('woof_print_option_advanced'), WP_Hook->do_action, WP_Hook->apply_filters, WOOF_FRONT_BUILDER->global_options
+[30-Sep-2025 14:57:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 351
+[30-Sep-2025 15:05:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 351
+[30-Sep-2025 15:08:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 351
+[30-Sep-2025 15:10:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 351
+[30-Sep-2025 15:12:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 351
+[30-Sep-2025 15:14:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 351
+[30-Sep-2025 15:15:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 351
+[30-Sep-2025 15:15:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 351
+[30-Sep-2025 15:16:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 351
+[30-Sep-2025 15:17:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 351
+[30-Sep-2025 15:17:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 351
+[30-Sep-2025 15:18:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 351
+[30-Sep-2025 15:20:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 351
+[30-Sep-2025 15:21:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 351
+[30-Sep-2025 15:27:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 351
+[30-Sep-2025 15:28:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 351
+[30-Sep-2025 15:29:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 351
+[30-Sep-2025 15:31:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 351
+[30-Sep-2025 16:30:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php:351
+Stack trace:
+#0 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(324): Elementor\Modules\Ai\Module->get_product_images_ajax('')
+#1 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-admin\admin-ajax.php(192): do_action('wp_ajax_element...')
+#4 {main}
+  thrown in C:\Users\Chino\Local Sites\atriles-croma\app\public\wp-content\plugins\elementor\modules\ai\module.php on line 351
